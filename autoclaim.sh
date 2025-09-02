@@ -128,8 +128,8 @@ while true; do
         echo "💤 No claimable rewards at this time, skipping claim..."
     fi
 
-    echo "⏰ Next check in 1 hour..."
+    echo "⏰ Next check in 10 minutes..."
     echo "Press Ctrl+C to stop the script"
 
-    sleep 3600
+    sleep 600
 done
