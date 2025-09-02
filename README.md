@@ -65,12 +65,36 @@ worm-miner --help
 
 如果看到帮助信息，说明安装成功！
 
+## 🔧 基础命令
+
+### 查看账户信息
+
+```bash
+# 查看账户的基础信息
+worm-miner info --network sepolia --private-key 私钥 --custom-rpc https://eth-sepolia.g.alchemy.com/v2/api_key
+```
+
+### 参与 WORM(\$bETH -> \$WORM)
+
+```bash
+# 参与挖矿（手动）
+worm-miner participate \
+--amount-per-epoch 15 \
+--num-epochs 1 \
+--private-key 私钥 \
+--network sepolia \
+--custom-rpc https://eth-sepolia.g.alchemy.com/v2/api_key
+
+# amount-per-epoch 代表的是每个 epoch 投入多少个 bETH
+# num-epochs 代表的是参与多少个 epoch
+```
+
 ### 基本使用
 
 #### 1. 安装 tmux（推荐）
 
 ```bash
-# Ubuntu/Debian
+# Ubuntu/Debian (默认 Ubuntu 自带 tmux)
 sudo apt install tmux
 
 # CentOS/RHEL
