@@ -113,7 +113,7 @@ perform_claim() {
     return $exit_code
 }
 
-# Main loop - run every hour
+# Main loop - run every 10 minutes
 while true; do
     echo ""
     echo "🕐 $(date): Starting claim check..."
