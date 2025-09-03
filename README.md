@@ -81,10 +81,9 @@ worm-miner info --network sepolia --private-key 私钥 --custom-rpc https://eth-
 
 ### 参与 WORM(\$bETH -> $WORM)
 
-<div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 10px; margin: 10px 0;">
-<strong style="color: #d32f2f;">⚠️ 重要提示</strong><br>
-<span style="color: #d32f2f;">参与挖矿需要先挖出 $bETH 代币才能获得 $WORM 奖励！，这里是手动的！！！</span>
-</div>
+> [!IMPORTANT]
+> **🚨 重要提示 🚨**
+> **参与挖矿需要先质押 $bETH 代币才能获得 $WORM 奖励！这里是手动的！！！**
 
 ```bash
 # 参与挖矿（手动）
